@@ -1,0 +1,185 @@
+/* This body tag sets the font. Min-width helped control borders */
+body {
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  font-size: 18px;
+  color: #777777;
+  max-width: 970px;
+  margin: 0px;
+  }
+  
+div {
+  display:block;
+}
+/* Horizontal Rule for Main Box */
+.mainHR {
+  height: 3px;
+  color: #cccccc;
+  background-color: #cccccc;
+  border: 0 none;
+  margin-bottom: 4%;
+}
+/* HR for side box */
+#contacthr {
+  height: 3px;
+  color: #cccccc;
+  margin-bottom: 4%;
+}
+/* Image rules to make it behave! Again, this could've been a div */
+#bg {
+  width: 100%;
+  position: fixed;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  border-top: 3px solid;
+  border-top-color: #cccccc;
+}
+
+#header {
+  width: 100%;
+  background-color: #ffffff;
+  }
+
+h1 {
+  display: block;
+  font-weight: bold;
+}
+
+h2 {
+  color: #4aaaa5;
+  font-weight: bold;
+}
+
+.headerfont {
+  font-family: 'Georgia', Times, Times New Roman, serif;
+  font-size: 30px;
+  padding-bottom: 2%;
+}
+
+#sidebartitle {
+  font-size: 20px;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+#name {
+  margin: 0px;
+  margin-left: 250px;
+  padding: 36px;
+  font-size: 28px;
+  width: 20%;
+  color: #ffffff;
+  background-color: #4aaaa5;
+}
+
+#navbar {
+  list-style-type: none;
+  margin-right: 325px;
+  padding: 0px;
+  position: absolute;
+  top: 40px;
+  right: 30px;
+  }
+
+#navbar li {
+  display: inline;
+  padding-left: 20px;
+}
+/* Hoorah pseudo-classes */
+#navbar li:not(:last-child) {
+  border-right: solid 1px #cccccc;
+  padding-right: 20px;
+}
+
+#mainContent {
+  width: 600px;
+  padding: 25px;
+  display: block;
+  background: #ffffff;
+  margin-left: 250px;
+  margin-top: 30px;
+  position: absolute;
+  /* Golden Ratio is 1.5x the font-size */
+  line-height: 27px;
+  border: 1px #dddddd solid;
+  }
+
+#bio-image {
+  width: 200px;
+  height: 200px;
+  margin-right: 20px;
+  float: left;
+}
+
+#portfolio li {
+  position: relative;
+  margin: 10px;
+  display: inline;
+}
+
+#portfolio h4 {
+  position: absolute;
+  bottom: 15px;
+  padding-top: 10px;
+  font-size: 20px;
+  left: 0px;
+  width: 100%;
+  text-align: center;
+  color: #ffffff;
+  background-color: #4aaaa5;
+}
+  
+#contact_pageright {
+  width: 210px;
+  background: #ffffff;
+  top: 0px;
+  right: 0px;
+  position: absolute;
+  margin-top: 130px;
+  margin-right: 350px;
+  display: block;
+  padding: 30px;
+  border: 1px #cccccc solid;
+}
+
+#contactBar li {
+  display: inline;
+}
+
+/* For whatever reason the stackoverflow icon did not play nice and needed it's own set of rules */
+#stack {
+  position: relative;
+  bottom: 3px;
+  left: 3px;
+}
+
+#footer {
+  width: 100%;
+  background: #666666;
+  position: absolute;
+  margin-top: 40em;
+  bottom: 0px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  font-size: small;
+  text-align: center; 
+  color: #cccccc;
+  border-top: 10px solid;
+  border-top-color: #4aaaa5;
+}
+/* Control all form submission boxes with one class, feelsgud */
+.form-control {
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+#submitbutton {
+  color: #ffffff;
+  background-color: #4aaaa5;
+  padding: 10px 40px 10px 40px;
+  font-size: 18px;    
+}
