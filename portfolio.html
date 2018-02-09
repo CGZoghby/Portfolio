@@ -7,7 +7,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>My Portfolio</title>
+    <title>Portfolio | Chris Zoghby</title>
     <!-- This is the pointer to where the stylesheet hides-->
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
@@ -15,65 +15,81 @@
 
 <body>
 
-<div>
 
-    <img src="assets/images/spiration_light/spiration-light.png" id="bg" alt="img background">
+    <header id="masthead">
+        <div class="container">
+            <a href="index.html" id="logo">Chris Zoghby</a>
+            <nav>
+                <a href="index.html">About</a>
+                <a href="portfolio.html">Portfolio</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </div>
+    </header>
 
-    <div id="header"> 
-            
-        <h1 id="name" class="headerfont">Chris Zoghby</h1>
 
-        <ul id="navbar">
+    <div id="main-container" class="container">
+        <section class="main-section">
+            <h1>Portfolio</h1>
 
-            <li><a href="index.html">About</a></li>
-            <li><a href="portfolio.html">Portfolio</a></li>
-            <li><a href="contact.html">Contact</a></li>
+            <div class="work">
+                <a href="#">
+                    <img src="assets/images/placeholder1.jpg" alt="p1">
+                    <h3>Hangman</h3>
+                </a>
+            </div>
+            <div class="work">
+                <a href="#">
+                    <img src="assets/images/placeholder2.jpg" alt="p2">
+                    <h3>RPG Game</h3>
+                </a>
+            </div>
+            <div class="work">
+                <a href="#">
+                    <img src="assets/images/placeholder3.jpg" alt="p3">
+                    <h3>Trivia Game</h3>
+                </a>
+            </div>
+            <div class="work">
+                <a href="#">
+                    <img src="assets/images/placeholder4.jpg" alt="p4">
+                    <h3>Rutgers Info Widget</h3>
+                </a>
+            </div>
+            <div class="work">
+                <a href="#">
+                    <img src="assets/images/placeholder5.jpg" alt="p5">
+                    <h3>Rock Paper Scissors</h3>
+                </a>
+            </div>
+        </section>
 
-        </ul>
-                    
-    </div>
 
-    <div id="mainContent">    
+        <section class="sidebar">
+            <div id="connect">
+                <h2>Connect With Me</h2>
 
-        <h2 class="headerfont">Portfolio</h2>
+                <!-- Links to contact other web profiles -->
+                <a href="https://github.com/CGZoghby">
+                    <img class="social" src="assets/images/github-128.png" alt="githubLink">
+                </a>
+                <a href="https://www.linkedin.com/in/christopherzoghby/">
+                    <img class="social" src="assets/images/linkedin-128.png" alt="linkedin">
+                </a>
+                <a href="https://stackoverflow.com/users/9185333/christopher-zoghby?tab=profile">
+                    <img class="social" src="assets/images/stackoverflow-128.png" alt="stackoverflow">
+                </a>
+            </div>
+        </section>
+        <div class="push"></div>
+    </div>  
 
-        <hr class="mainHR">
+    <footer>
+        <div class="container">
+            © Copyright 2018 Christopher Gregory Zoghby
+        </div>
+    </footer>
 
-        <ul id="portfolio">
-
-            <li><a href="#"><img src="assets/images/placeholder1.jpg" alt="p1"><h4 class="headerfont">Hangman</h4></li></a>
-            <li><a href="#"><img src="assets/images/placeholder2.jpg" alt="p2"><h4 class="headerfont">RPG Game</h4></li></a>
-            <li><a href="#"><img src="assets/images/placeholder3.jpg" alt="p3"><h4 class="headerfont">Trivia Game</h4></li></a>
-            <li><a href="#"><img src="assets/images/placeholder4.jpg" alt="p4"><h4 class="headerfont">Rutgers Info Widget</h4></li></a>
-            <li><a href="#"><img src="assets/images/placeholder5.jpg" alt="p5"><h4 class="headerfont">Rock Paper Scissors</h4></li></a>
-
-        </ul>
-                    
-    </div>    
-
-    <div id="contact_pageright">        
-
-        <h2 id="sidebartitle" class="headerfont">Connect With Me</h2>
-                    
-        <hr id="contacthr">
-                    
-        <ul id="contactBar">
-                    
-            <li><a href="https://github.com/CGZoghby"><img src="assets/images/if_github_square_black_107109.png" height="65" width="65" alt="githubLink"></a></li>
-            <li><a href="https://www.linkedin.com/in/christopherzoghby/"><img src="assets/images/if_linkedin_square_color_107091.png" height="65" width="65" alt="linkedin"></a></li>
-            <li><a href="https://stackoverflow.com/users/9185333/christopher-zoghby?tab=profile"><img id="stack" src="assets/images/if_overflow_334695.png" height="58" width="58" alt="stackoverflow"></a></li>
-                    
-        </ul>
-
-    </div>     
-
-    <div id="footer">
-
-        © Copyright 2018 Christopher Gregory Zoghby
-
-    </div>
-
-</div>
 
 </body>
 
