@@ -15,8 +15,7 @@ body {
 
 /* https://css-tricks.com/snippets/css/sticky-footer/ */
 
-html,
-body {
+html, body {
   height: 100%;
 }
 
@@ -27,8 +26,9 @@ body {
   margin: 0 auto -105px;
 }
 
-footer,
-.push {
+footer, .push {
+  bottom: 0;
+  width: 100%;
   height: 100px;
 }
 
@@ -175,6 +175,10 @@ h3,
   margin-right: 0;
 }
 
+.sidebar a {
+  text-decoration: none;
+}
+
 /* main */
 
 #main-container {
@@ -271,4 +275,22 @@ input[type=submit] {
   cursor: pointer;
   background: #4aaaa5;
   border: 0 none;
+}
+
+@media (max-width: 920px) {
+  .sidebar {
+    float: left;
+  }
+}
+
+@media (min-width: 545px) {
+  .navbar-toggle {
+    display: none;
+  }
+}
+
+@media (max-width: 545px) {
+  .collapse {
+    display: none;
+  }
 }
