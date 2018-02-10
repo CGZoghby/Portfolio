@@ -277,6 +277,7 @@ input[type=submit] {
   border: 0 none;
 }
 
+/* I was really hoping this would force it to top */
 #mobile_nav_wrap {
   z-index: 100; 
 }
@@ -305,16 +306,6 @@ input[type=submit] {
 	float:left;
 	margin:0;
 	padding:0;
-}
-
-#mobile_nav_wrap ul li.current-menu-item
-{
-	background:#ddd;
-}
-
-#mobile_nav_wrap ul li:hover
-{
-	background:#f6f6f6;
 }
 
 #mobile_nav_wrap ul ul
