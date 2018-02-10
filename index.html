@@ -14,57 +14,37 @@
 </head>
 
 <body>
+    <!-- So I want this nav to ONLY DISPLAY if I fall below a certain resolution. and THEN, I want the nav to take the place of the non_mobile_nav but leave the name logo in place -->
+    <nav id="mobile_nav_wrap">
+        <ul>
+            <li>
+                <a href="#">Page Navigation</a>
+                <ul>
+                    <li>
+                        <a href="#">About</a>
+                    </li>
+                    <li>
+                        <a href="#">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact</a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
 
+    <!-- The primary nav display for everything else outside of tiny screens -->
     <header id="masthead">
         <div class="container">
             <a href="index.html" id="logo">Chris Zoghby</a>
-            <nav id="navbar" class="collapse">
+            <nav id="non_mobile_nav">
                 <a href="index.html">About</a>
                 <a href="portfolio.html">Portfolio</a>
                 <a href="contact.html">Contact</a>
             </nav>
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false"
-                aria-controls="navbar">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
         </div>
     </header>
-
-    <!-- <nav class="navbar navbar-inverse navbar-fixed-top">
-            <div class="container">
-              <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                  <span class="sr-only">Toggle navigation</span>
-                  <span class="icon-bar"></span>
-                  <span class="icon-bar"></span>
-                  <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="#">Bootstrap theme</a>
-              </div>
-              <div id="navbar" class="navbar-collapse collapse">
-                <ul class="nav navbar-nav">
-                  <li class="active"><a href="#">Home</a></li>
-                  <li><a href="#about">About</a></li>
-                  <li><a href="#contact">Contact</a></li>
-                  <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-                    <ul class="dropdown-menu">
-                      <li><a href="#">Action</a></li>
-                      <li><a href="#">Another action</a></li>
-                      <li><a href="#">Something else here</a></li>
-                      <li role="separator" class="divider"></li>
-                      <li class="dropdown-header">Nav header</li>
-                      <li><a href="#">Separated link</a></li>
-                      <li><a href="#">One more separated link</a></li>
-                    </ul>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </nav> -->
 
     <div class="wrapper">
         <div id="main-container" class="container">
